@@ -1,0 +1,22 @@
+{
+  "name": "backend-server",
+  "version": "1.0.0",
+  "description": "Servidor Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Cassisi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "google-auth-library": "^3.1.2",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.9",
+    "mongoose-unique-validator": "^2.0.2"
+  }
+}
